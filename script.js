@@ -1,22 +1,25 @@
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
+document.addEventListener("DOMContentLoaded", () => {
 
-        if (entry.isIntersecting) {
+    const sections = document.querySelectorAll("section");
 
-            entry.target.classList.add("show");
-
-            observer.unobserve(entry.target);
-        }
+    sections.forEach(section => {
+        section.classList.add("fade-up");
     });
 
-}, {
-    threshold: 0.15
-});
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
 
-document.querySelectorAll("section").forEach((el) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
 
-    el.classList.add("hidden");
+        });
+    }, {
+        threshold: 0.15
+    });
 
-    observer.observe(el);
+    sections.forEach(section => {
+        observer.observe(section);
+    });
 
 });

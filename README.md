@@ -1,6 +1,6 @@
 # 👋 Hi, I'm SeoYoung Jin
 
-🌐 **Portfolio Website:** https://thedevhublab.github.io/
+🌐 **[Portfolio Website](https://thedevhublab.github.io/)**
 
 **Mathematics & Statistics Graduate | Test Engineer at Nike | Sports Analytics & Consumer Insights Enthusiast**
 
@@ -11,8 +11,6 @@ Welcome to my personal portfolio and project repository.
 This repository is connected to my personal portfolio website, where I showcase my professional background, career interests, selected projects, and experiences in data analytics, consumer insights, and sports business.
 
 The portfolio highlights my journey from studying Mathematics and Statistics to applying data-driven decision-making in product testing, consumer research, and sports-related environments.
-
-**Visit the portfolio:** https://thedevhublab.github.io/
 
 ## About Me
 
@@ -98,7 +96,7 @@ This portfolio showcases projects and work related to:
 
 A self-developed Applicant Tracking System designed to streamline recruitment workflows, centralize candidate information, and improve hiring efficiency through an intuitive user experience.
 
-🔗 Project Link: https://thedevhublab.github.io/Resume/
+🔗 **[View ATS Project](https://thedevhublab.github.io/Resume/)**
 
 ## Career Mission
 
@@ -108,11 +106,9 @@ My goal is to transform data into actionable insights that improve products, enh
 
 ## Connect
 
-🌐 Portfolio: https://thedevhublab.github.io/
+💻 **[GitHub](https://github.com/thedevhublab)**
 
-💻 GitHub: https://github.com/thedevhublab
-
-📧 Email: [thedevhubs@gmail.com](mailto:thedevhubs@gmail.com)
+📧 **[thedevhubs@gmail.com](mailto:thedevhubs@gmail.com)**
 
 ---
 

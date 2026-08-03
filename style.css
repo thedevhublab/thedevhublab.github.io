@@ -243,3 +243,58 @@ section:last-of-type p:last-child {
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================
+   Scroll Animation
+   ========================================== */
+
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ==========================================
+   Layout Improvement
+   ========================================== */
+
+body {
+    max-width: 1000px;
+}
+
+section {
+    overflow: hidden;
+}
+
+.project-card {
+    margin-top: 10px;
+}
+
+/* ==========================================
+   About Me Readability
+   ========================================== */
+
+section p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* ==========================================
+   Contact Card Hover
+   ========================================== */
+
+section:last-of-type p {
+    transition: all 0.3s ease;
+}
+
+section:last-of-type p:hover {
+    border-color: var(--accent-color);
+    transform: translateX(4px);
+}

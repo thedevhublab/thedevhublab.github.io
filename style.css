@@ -298,3 +298,14 @@ section:last-of-type p:hover {
     border-color: var(--accent-color);
     transform: translateX(4px);
 }
+
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -90,13 +90,19 @@ This portfolio showcases projects and work related to:
 * Coordinated with media representatives and stakeholders
 * Worked in a fast-paced global sports environment
 
-## Featured Project
+## Featured Projects
 
 ### Applicant Tracking System (ATS)
 
 A self-developed Applicant Tracking System designed to streamline recruitment workflows, centralize candidate information, and improve hiring efficiency through an intuitive user experience.
 
 🔗 **[View ATS Project](https://thedevhublab.github.io/Resume/)**
+
+### Worklog — Bilingual Work Journal
+
+A lightweight Korean and English work journal for recording daily tasks and reviewing progress by month, category, or keyword. It includes a monthly dashboard, custom bilingual categories, search and sorting, and JSON backup and restore. Worklog stores data in the current browser using localStorage; it does not require an account or server database.
+
+🔗 **[Open Worklog](https://thedevhublab.github.io/Worklog/)**
 
 ## Career Mission
 
